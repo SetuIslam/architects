@@ -30,6 +30,7 @@ li{
 .section-title{
     font-size: 45px;
     line-height: 53px;
+    margin-bottom: 30px;
 }
 .cta {
     margin: 30px 0;
@@ -192,27 +193,46 @@ feature-quick-list
 /* ===============================================
               Some Facts Section
 ================================================== */
+.our-sponsors,
 .some-facts {
     padding: 90px 0;
 }
-
 .some-facts-top {
     width: 542px;
 }
-
+.our-sponsors-contents,
 .some-facts-contents {
-    padding-top: 100px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.some-facts-contents {
+    padding-top: 100px;
 }
 
 .some-fact {
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 35px 30px;
+    transition: .5s ease;
+    width: 150px;
+}
+.some-fact:hover {
+    box-shadow: 1px 0px 8px 0px #ccc;
 }
 .some-fact img {
     width: 45px;
     height: 45px;
+}
+.some-fact h3 {
+    color: #424242;
+}
+
+
+/* ===============================================
+              Our Sponsors
+================================================== */
+.our-sponsors-top {
+    width: 542px;
+    margin: auto;
 }
