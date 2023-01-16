@@ -90,7 +90,7 @@ li{
     color: #131313;
 }
 /* ================================
-             feature-quick-list 
+feature-quick-list 
 ===================================*/
 .feature-quick-list {
     padding: 50px 0;
@@ -109,16 +109,20 @@ li{
     row-gap: 10px;
     margin-right: 50px;
 }
-.section-title{
-    font-size: 45px;
-    line-height: 53px;
-}
+
 .quick-list-contet .cta {
     justify-content: start;
 }
+.quick-list-contet .section-title {
+    font-weight: 500;
+}
+
+.quick-list-contet .section-title span {
+    font-weight: 700;
+}
 
 /* ================================
-          features-you-enjoy 
+        features-you-enjoy 
 ===================================*/
 
 .features-top-content {
@@ -184,3 +188,31 @@ li{
     font-weight: 400;
 }
 
+
+/* ===============================================
+              Some Facts Section
+================================================== */
+.some-facts {
+    padding: 90px 0;
+}
+
+.some-facts-top {
+    width: 542px;
+}
+
+.some-facts-contents {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.some-fact {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 35px 30px;
+}
+.some-fact img {
+    width: 45px;
+    height: 45px;
+}
