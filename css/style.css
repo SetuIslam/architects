@@ -262,5 +262,7 @@ feature-quick-list
                  Responsive 
 ==========================================*/
 @media screen and (max-width: 991px) {
-    
+    .testimonial-content {
+        width: auto;
+    }
 }
