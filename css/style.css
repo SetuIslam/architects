@@ -8,6 +8,7 @@
 body{
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
+    line-height: 26px;
     color: #727272;
 }
 h1,h2,h3,h4,h5,h6{
@@ -119,6 +120,7 @@ li{
 /* ================================
           features-you-enjoy 
 ===================================*/
+
 .features-top-content {
     margin-bottom: 20px;
 }
@@ -136,6 +138,49 @@ li{
     left: 0;
     background: #FF900E;
 }
-.features-card{
-    
+.features-you-enjoy-area {
+    display: flex;
 }
+.features-you-enjoy-content {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.features-card {
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 6%);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.features-card h3 {
+    margin-bottom: 10px;
+}
+
+.features-you-enjoy-img {
+    /* width: 55%; */
+    padding-left: 80px;
+    margin-left: 54px;
+    position: relative;
+}
+
+.features-floating-cta {
+    position: absolute;
+    left: 15px;
+    text-align: center;
+    top: 60%;
+}
+
+.features-floating-cta.button-primary {
+    font-size: 65px;
+    font-weight: 700;
+    padding: 40px 25px;
+}
+.features-floating-cta a {
+    color: #ffffff;
+}
+
+.features-floating-cta a span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
